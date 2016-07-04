@@ -47,7 +47,6 @@
     "yaml2json": "^1.0.2"
   },
   "dependencies": {
-    "bourbon": "^4.2.6",
     "sanitize.css": "^4.1.0"
   },
   "engines": {
