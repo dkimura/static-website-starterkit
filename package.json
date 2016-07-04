@@ -49,7 +49,7 @@
     "sanitize.css": "^4.1.0"
   },
   "engines": {
-    "node": ">=4.2.0"
+    "node": "6.x"
   },
   "license": "MIT",
   "repository": {
