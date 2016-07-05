@@ -9,13 +9,13 @@
     "browsersync": "browser-sync start --config bs-config.js",
     "pug": "pug src/html/pages --out dist -O \"`yaml2json src/data/site.yaml`\"",
     "pug:watch": "npm run pug -- -w",
-    "pcss": "postcss -c .postcssrc.json",
+    "pcss": "postcss -c postcssrc.config.js",
     "pcss:watch": "npm run pcss && npm run pcss -- -w",
-    "pcss:build": "npm run pcss -- -u cssnano",
+    "pcss:build": "npm run pcss",
     "webpack": "webpack",
     "webpack:build": "npm run webpack -- --config webpack.config.production.js",
     "watch": "npm run clean && parallelshell 'npm run pug:watch' 'npm run pcss:watch' 'npm run browsersync'",
-    "build": "npm run clean && parallelshell 'npm run pug' 'npm run pcss:build' 'npm run webpack:build'",
+    "build": "npm run clean && NODE_ENV=production parallelshell 'npm run pug' 'npm run pcss:build' 'npm run webpack:build'",
     "start": "npm run watch"
   },
   "keywords": [
