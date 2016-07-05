@@ -1,12 +1,12 @@
 const { NODE_ENV } = process.env;
 const config = {
-  parser: 'postcss-scss',
   input: './src/css/*.pcss',
   output: './dist/css/style.css',
   use: [
     'stylelint',
+    'postcss-easy-import',
+    'postcss-browser-reporter',
     'postcss-reporter',
-    'precss',
     'postcss-bem',
     'autoprefixer',
   ],
@@ -16,6 +16,12 @@ const config = {
   },
   precss: {
     extension: 'pcss',
+  },
+  'postcss-easy-import': {
+    extensions: ['.pcss', '.scss', '.css'],
+    onImport: sources => {
+      global.watchCSS(sources);
+    },
   },
   'postcss-bem': {
     separators: {
