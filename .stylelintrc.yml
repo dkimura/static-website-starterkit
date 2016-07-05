@@ -1,1 +1,3 @@
-extends: stylelint-config-standard
+extends: stylelint-config-suitcss
+rules:
+  max-nesting-depth: 2

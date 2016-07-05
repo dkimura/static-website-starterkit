@@ -45,7 +45,7 @@
     "pug": "^2.0.0-beta3",
     "pug-cli": "^1.0.0-alpha6",
     "stylelint": "^6.8.0",
-    "stylelint-config-standard": "^10.0.0",
+    "stylelint-config-suitcss": "^7.0.0",
     "webpack": "^1.12.9",
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.5.1",
