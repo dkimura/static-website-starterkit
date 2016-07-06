@@ -29,6 +29,13 @@ _TBD_
 
 ## Usage
 
+### Development
+
+`npm start`
+
+### Build
+
+`npm run build`
 
 ## License
 
