@@ -2,7 +2,7 @@
 
 Simple static website generator with Babel, Pug, PostCSS and Webpack.
 
-[![wercker status](https://app.wercker.com/status/46992c4a62c4ef5cddf23d7ef1de332f/s "wercker status")](https://app.wercker.com/project/bykey/46992c4a62c4ef5cddf23d7ef1de332f)
+[![wercker status](https://app.wercker.com/status/d3866d6e2f54f74746d22f7fb8ca285e/s "wercker status")](https://app.wercker.com/project/bykey/d3866d6e2f54f74746d22f7fb8ca285e)
 
 ## Project Setup
 
