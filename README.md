@@ -1,8 +1,8 @@
 # ES6 Static Website Starterkit
 
-Simple static website generator with babel, jade, sass and webpack.
+Simple static website generator with Babel, Pug, PostCSS and Webpack.
 
-[![wercker status](https://app.wercker.com/status/46992c4a62c4ef5cddf23d7ef1de332f/s "wercker status")](https://app.wercker.com/project/bykey/46992c4a62c4ef5cddf23d7ef1de332f)
+[![wercker status](https://app.wercker.com/status/d3866d6e2f54f74746d22f7fb8ca285e/s "wercker status")](https://app.wercker.com/project/bykey/d3866d6e2f54f74746d22f7fb8ca285e)
 
 ## Project Setup
 
@@ -10,7 +10,7 @@ Simple static website generator with babel, jade, sass and webpack.
 
 ### Requirements
 
-- node >4.0.0
+- node > 6.x
 
 ## Testing
 
@@ -29,6 +29,13 @@ _TBD_
 
 ## Usage
 
+### Development
+
+`npm start`
+
+### Build
+
+`npm run build`
 
 ## License
 
