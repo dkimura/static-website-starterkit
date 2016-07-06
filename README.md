@@ -10,7 +10,7 @@ Simple static website generator with Babel, Pug, PostCSS and Webpack.
 
 ### Requirements
 
-- node >4.0.0
+- node > 6.x
 
 ## Testing
 
