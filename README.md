@@ -12,21 +12,6 @@ Simple static website generator with Babel, Pug, PostCSS and Webpack.
 
 - node > 6.x
 
-## Testing
-
-_TBD_
-
-## Development
-
-`npm run watch`
-
-## Deployment
-
-_TBD_
-
-## Troubleshooting & Useful Tools
-
-
 ## Usage
 
 ### Development
